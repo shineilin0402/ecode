@@ -1,4 +1,4 @@
-# Partner: Soraya Sardine
+# Shin ei Lin
 
 
 def encode_password(password):
