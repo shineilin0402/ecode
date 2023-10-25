@@ -12,7 +12,7 @@ def encode_password(password):
 def decode_password_new(password):
     password = password[:8]
     decode_res = [int(item) for item in password]
-    decode_res = [(element - 3) % 10 for element in decode_res]  # decoded by shifting each digit down by 3 numbers
+    decode_res = [(element - 3) % 10 for element in decode_res]  # shift each digit down by 3 numbers
     return ''.join(str(num) for num in decode_res)
 
 
