@@ -1,3 +1,6 @@
+# Partner: Soraya Sardine
+
+
 def encode_password(password):
     encoded_password = ""
     for digit in password:
